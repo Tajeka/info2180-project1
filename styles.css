@@ -25,11 +25,14 @@ body {
 .nav{
     display: flex;
     text-align: right;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
 }
 
-.links{
+/* .links{
     color:#6b7280;
-}
+} */
 
 .hover{
     colour:#5A67D8;
