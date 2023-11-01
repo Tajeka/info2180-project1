@@ -24,15 +24,23 @@ body {
     color:#6b7280;
 }
 
-:hover{
+.hover{
     colour:#5A67D8;
 } 
 
-.overview{
+.overview-hero{
     background-color:#E2E8F0;
 } 
 
-.about{
+.learn-about{
  font-size: 24px;
  color: #48BB78;
 } 
+
+.overview-hero-image{
+
+}
+
+.overview-hero-text{
+    
+}
