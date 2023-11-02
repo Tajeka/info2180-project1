@@ -17,20 +17,28 @@ body {
     background-colour: white;
      font-size: 18px;
      display: flex;
-}
+     text-decoration: none;
+     display: inline;
+     text-align: right;
+     list-style: none;
+     padding: 0;
+     margin-bottom: 50px;
+    margin-top: 30px; 
+ }
 
- .ul{
+
+.nav ul{
     display: flex;
     text-align: right;
     list-style: none;
     padding: 0;
 }
 
-.ul a{
+.nav a{
     text-decoration: none;
 }
 
-.ul li{
+.nav li{
     display: inline;
 }
 
@@ -45,6 +53,7 @@ body {
 .overview-hero{
     background-color:#E2E8F0;
     text-align: right;
+    padding: 100px;
 } 
 
 .overview-hero-image{
@@ -57,6 +66,8 @@ body {
 .learn-about{
  font-size: 24px;
  color: #48BB78;
+ margin-bottom: 50px;
+ margin-top: 30px;
  /* display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-template-rows: 3;
@@ -66,15 +77,21 @@ body {
 } 
 
 .cards{
- box-shadow: 5px 10px #E2E8F0;
- border-radius: 5px;
  padding: 10px;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- grid-template-rows: 3;
- grid-gap: 20px;
+ /* grid-template-rows: 3; */
+ grid-gap: 30px;
  margin:0 auto;
  width:1200px;
+ text-align: center;
+ justify-content: center;
+} 
+
+.card{
+    box-shadow: 5px 10px #E2E8F0;
+    border-radius: 5px;  
+    padding: 10px;
 }
 
 
@@ -91,6 +108,9 @@ body {
 .newsletter{
     background-color: #48BB78; 
     color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 100px;
 }
 
 .btn{
@@ -99,9 +119,12 @@ body {
 
 .stories{
     font-size: 18px; 
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .testing{
  background-color: #4A5568;
  color: white;
+ padding: 100px;
 } 
