@@ -49,35 +49,42 @@ nav a:hover{
 
 .overview-hero{
     background-color:#E2E8F0;
-    text-align: right;
-    padding: 100px;
+    padding: 50px;
 } 
+
+.overview-hero .container{
+    display: flex;
+    justify-content: space-between;
+}
 
 .overview-hero-image{
     float: left;
-    margin: 4px;
+    /* margin: 4px;
     width: 50px;
-    height: 50px;
+    height: 50px; */
+
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+}
+.learn-about .container{
+    flex-direction: column;
 }
 
 .learn-about{
- font-size: 24px;
- color: #48BB78;
  margin-bottom: 50px;
  margin-top: 30px;
- /* display: grid;
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: 3;
- grid-gap: 20px;
- margin:0 auto;
- width:1200px; */
 } 
+
+.learn-about h2{
+ font-size: 24;
+ color: #48BB78;
+}
 
 .cards{
  padding: 10px;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- /* grid-template-rows: 3; */
  grid-gap: 30px;
  margin:0 auto;
  width:1200px;
@@ -89,29 +96,28 @@ nav a:hover{
     box-shadow: 5px 10px #E2E8F0;
     border-radius: 5px;  
     padding: 10px;
+    color: black;
 }
 
-.learn-about h2{
-    text-align: center;
+.card-body h3{
+    color: #48BB78;
 }
-
-
-/* .overview-hero-text{
-
-} */
 
 footer{
     background-color: #4A5568;
     color: white;
-    padding: 10px;
+    padding: 20px;
+}
+
+.newsletter .container{
+    flex-direction: column ;
 }
 
 .newsletter{
     background-color: #48BB78; 
     color: white;
-    margin-bottom: 50px;
     margin-top: 30px;
-    padding: 200px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -119,34 +125,50 @@ footer{
     background-color: #5A67D8;
 }
 
-.form-group{
+form{
     text-align: left;
-    padding: 20px;
+    padding: 40px;
+    display: flex;
+}
+
+.stories .container{
+    flex-direction: column ;
+    /* justify-content: space-between; */
+}
+
+.stories h2{
+    color: #5A67D8;
+}
+
+article img{
+    float: left;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 .stories{
     font-size: 18px; 
     margin-bottom: 50px;
     margin-top: 30px;
-    /* text-align: right; */
-    /* grid-template-columns: 1fr; */
-    /* flex-direction: row; */
     gap: 20px;
 }
 
 .testing{
  background-color: #4A5568;
  color: white;
- padding: 50px;
+ padding: 100px;
 } 
 
-.cta{
+.cta .btn{
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
-    padding: 5px 10px;
+    padding: 0px;
 }
 
 .article-body{
-
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
