@@ -44,7 +44,7 @@ nav li{
 }
 
 nav a:hover{
-    colour:#5A67D8;
+    color:#5A67D8;
 } 
 
 .overview-hero{
@@ -59,10 +59,6 @@ nav a:hover{
 
 .overview-hero-image{
     float: left;
-    /* margin: 4px;
-    width: 50px;
-    height: 50px; */
-
     margin: 10px;
     width: 400px;
     height: 200px;
@@ -97,6 +93,7 @@ nav a:hover{
     border-radius: 5px;  
     padding: 10px;
     color: black;
+    border: 1px solid #E2E8F0;
 }
 
 .card-body h3{
@@ -121,8 +118,12 @@ footer{
     text-align: center;
 }
 
-.btn{
+.newsletter .btn{
     background-color: #5A67D8;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
 }
 
 form{
@@ -132,8 +133,7 @@ form{
 }
 
 .stories .container{
-    flex-direction: column ;
-    /* justify-content: space-between; */
+    flex-direction: column ;   
 }
 
 .stories h2{
@@ -145,6 +145,7 @@ article img{
     border-radius: 100%;
     width: 200px;
     height: 200px;
+    margin-right: 30px;
 }
 
 .stories{
@@ -152,6 +153,7 @@ article img{
     margin-bottom: 50px;
     margin-top: 30px;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .testing{
@@ -160,15 +162,40 @@ article img{
  padding: 100px;
 } 
 
+.testing .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .cta .btn{
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
-    padding: 0px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
 .article-body{
  display: flex;
  flex-direction: column;
  gap: 20px;
+}
+
+/* input [type="email"]{
+    padding: 15px;
+    border: none;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+} */
+
+.newsletter input{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
 }
